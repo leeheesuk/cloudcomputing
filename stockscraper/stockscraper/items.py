@@ -1,0 +1,18 @@
+# Define here the models for your scraped items
+#
+# See documentation in:
+# https://docs.scrapy.org/en/latest/topics/items.html
+
+import scrapy
+
+
+class StockscraperItem(scrapy.Item):
+    # define the fields for your item here like:
+    # name = scrapy.Field()
+
+    title = scrapy.Field()
+    Price = scrapy.Field()
+    Low_High_Price = scrapy.Field()
+    # low_price = scrapy.Field()
+    # high_price = scrapy.Field()
+    Quantity = scrapy.Field()

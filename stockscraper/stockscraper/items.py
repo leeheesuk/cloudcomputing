@@ -13,6 +13,4 @@ class StockscraperItem(scrapy.Item):
     title = scrapy.Field()
     Price = scrapy.Field()
     Low_High_Price = scrapy.Field()
-    # low_price = scrapy.Field()
-    # high_price = scrapy.Field()
     Quantity = scrapy.Field()
